@@ -1,0 +1,36 @@
+Arguments: 
+  /usr/local/bin/node /Users/wileyconte/.npm-packages/bin/yarn init
+
+PATH: 
+  /Users/wileyconte/.npm-packages/bin:/usr/local/mysql/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/mysql/bin:/usr/local/mysql/support-files:/usr/local/go/bin:/opt/X11/bin:/Users/wileyconte/.npm-packages/bin:/Users/wileyconte/projects/go/bin:/Users/wileyconte/projects/go/bin:/usr/local/go/bin
+
+Yarn version: 
+  1.19.1
+
+Node version: 
+  11.14.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/Users/wileyconte/.npm-packages/lib/node_modules/yarn/lib/cli.js:136824:13)
+      at Interface.emit (events.js:193:13)
+      at Interface._ttyWrite (readline.js:826:16)
+      at ReadStream.onkeypress (readline.js:183:10)
+      at ReadStream.emit (events.js:193:13)
+      at emitKeys (internal/readline.js:424:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1097:36)
+      at ReadStream.emit (events.js:193:13)
+      at addChunk (_stream_readable.js:295:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

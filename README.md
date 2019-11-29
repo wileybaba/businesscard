@@ -1,1 +1,5 @@
 # businesscard
+
+```
+npx wmc
+```
