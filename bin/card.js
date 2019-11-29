@@ -11,11 +11,11 @@ const options = {
 
 const data = {
   name: chalk.white('Wiley McKay Conte /'),
-  handle: chalk.cyan('wileybaba'),
+  handle: chalk.blueBright('wileybaba'),
   work: chalk.white('Software Engineer at Legalpad'),
-  twitter: chalk.cyan('twitter.com/wiley_baba'),
-  github: chalk.cyan('github.com/wileybaba'),
-  web: chalk.cyan('wileys.website'),
+  twitter: chalk.blueBright('twitter.com/wiley_baba'),
+  github: chalk.blueBright('github.com/wileybaba'),
+  web: chalk.blueBright('wileys.website'),
   npx: chalk.white('npx wmc'),
   labelWork: chalk.white.bold('      Work:'),
   labelTwitter: chalk.white.bold('   Twitter:'),
@@ -32,6 +32,6 @@ const githubing = `${data.labelGitHub}  ${data.github}`
 const webing = `${data.labelWeb}  ${data.web}`
 const carding = `${data.labelCard}  ${data.npx}`
 
-const output = heading + newline + newline + working + newline + twittering + newline + githubing + newline + linkedining + newline + webing + newline + newline + carding
+const output = heading + newline + newline + working + newline + webing + newline + twittering + newline + githubing + newline + newline + carding
 
-console.log(chalk.green(boxen(output, options)))
+console.log(chalk.magentaBright(boxen(output, options)))
