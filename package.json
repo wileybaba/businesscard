@@ -1,6 +1,6 @@
 {
   "name": "wmc",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "\"Wiley McKay Conte's business card\"",
   "main": "index.js",
   "bin": {
